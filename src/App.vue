@@ -1,9 +1,13 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <img src="@/assets/logo.png" alt="" />
+    <div>
+      <router-link to="/">Feed</router-link>
+      <router-link to="/create">Create Post</router-link>
+      <router-link to="/login">Login</router-link>
+    </div>
   </nav>
-  <router-view />
+  <router-view class="view" />
 </template>
 
 <style lang="scss">
