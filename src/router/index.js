@@ -2,11 +2,17 @@ import { createRouter, createWebHistory } from "vue-router";
 import FeedView from "../views/FeedView.vue";
 import CreatePostView from "../views/CreatePostView.vue";
 import UserView from "../views/UserView.vue";
+import HomeView from "../views/HomeView.vue";
 
 const routes = [
   {
     path: "/",
     name: "home",
+    component: HomeView,
+  },
+  {
+    path: "/feed",
+    name: "feed",
     component: FeedView,
   },
   {

@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1>Create Post</h1>
+    <br />
+    <h1 class="title is-2">Create Post</h1>
     <form @submit.prevent="createPost">
       <textarea rows="15" placeholder="Text" v-model="text" />
 

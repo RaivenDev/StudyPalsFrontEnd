@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1>Feed</h1>
+    <br />
+    <h1 class="title is-2">Feed</h1>
     <PostCard
       v-for="post in posts"
       :key="post.id"

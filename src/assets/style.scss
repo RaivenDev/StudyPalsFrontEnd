@@ -1,49 +1,24 @@
+@import '~bulma';
+
 html {
     background: linear-gradient(
       to bottom right,
-      rgba(10, 10, 10, 1),
-      rgba(12, 39, 63, 1)
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 1)
     ) no-repeat center center fixed !important;
 
-    p { 
-        color: #f4f5f6;
+    p {
+        color: #0e2a39;
     }
 
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #2c3e50;
+    color: #0e2a39;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 800px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 30px;  
 
-    a {
-        color: #999999;
-        font-weight: bold;
-        text-decoration: none;
-        
-    }
-
-    a:not(:last-child) {
-        margin-right: 15px;
-    }
-
-    a.router-link-active{
-        color: #f4f5f6;
-    }
-
-    img {   
-        height: 60px;
-    }
-}
 
 .view {
     max-width: 800px;
@@ -52,7 +27,7 @@ nav {
     text-align: left;
 
     h1 {
-        color: #f4f5f6;
+        color: #0e2a39;
     }
 }
 
@@ -77,13 +52,13 @@ textarea {
   -moz-box-sizing: border-box;
        box-sizing: border-box;
 }
-  
+
 button {
-  background: #ff2e34;
+  background: #a558c8;
   color: #fff;
   border: none;
   padding: 10px;
-  width: 200px;
+  width: 150px;
   font-size: 1rem;
   cursor: pointer;
   border-radius: 4px;

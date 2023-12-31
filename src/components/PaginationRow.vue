@@ -52,7 +52,7 @@ export default {
 }
 
 .pagination-item-active {
-  background-color: #ff2e34;
+  background-color: #a558c8;
   color: white;
 }
 </style>
