@@ -4,7 +4,7 @@
       <span
         ><b>{{ author.username }}</b></span
       >
-      escreveu
+      wrote
     </p>
     <p class="text">{{ text }}</p>
     <p class="time">{{ created }}</p>

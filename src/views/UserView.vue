@@ -1,5 +1,6 @@
 <template>
   <div v-if="user == null && register == false">
+    <br />
     <h1>Login</h1>
 
     <form @submit.prevent="loginUser">
@@ -16,6 +17,7 @@
     </p>
   </div>
   <div v-else-if="user == null && register == true">
+    <br />
     <h1>Register</h1>
 
     <form @submit.prevent="registerUser">
